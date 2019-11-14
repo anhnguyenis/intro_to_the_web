@@ -18,5 +18,5 @@ get '/solo' do
 end
 
 get '/cat' do
-
+ erb(:index)
 end
