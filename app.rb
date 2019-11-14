@@ -6,7 +6,7 @@ get '/' do
 end
 
 get '/secret' do
-  'yolo'
+  'this is a secret page'
 end
 
 get '/rolo' do
@@ -18,7 +18,5 @@ get '/solo' do
 end
 
 get '/cat' do
-  "<div style='border: 3px dashed red'>
-      <img src='http://bit.ly/1eze8aE'>
-    </div>"
+
 end
